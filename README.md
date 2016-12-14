@@ -9,10 +9,10 @@ Source code is written by C#, PInvoke, windows32 api .
 # Tips(提示)
 - Basic usage, consistent with System.Diagnostics.Stopwatch.基本用法，跟System.Diagnostics.Stopwatch一致。  
 
-  At the beginning of the timing position, through the Start method to press the meter; in order to get the elapsed time, through the Stop method pops up the meter, while ElapsedMilliseconds get the number of milliseconds.
+  At the beginning of the timing position, through the Start method to press the meter; in order to get the elapsed time, through the Stop method pops up the meter, while ElapsedMilliseconds get the number of milliseconds.  
   在开始计时的位置，通过Start方法按下咪表；在想获取已经过时间的位置，通过Stop方法弹起咪表，同时通过ElapsedMilliseconds得到经过的毫秒数。
   
-- If you do not need to clear to continue the meter, be sure to resume as soon as possible  through the Start() method.
+- If you do not need to clear to continue the meter, be sure to resume as soon as possible  through the Start() method.  
   如果需要不清零继续计时，请务必在尽早恢复Start()。
   
 ```
